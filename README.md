@@ -4,19 +4,19 @@ Follow these steps to configure the environment and run the script.
 
 ## Setup FFmpeg
 
-Before running the script, configure FFmpeg as follows
+Before running the script, configure FFmpeg as follows:
 ```bash
 cd ffmpeg-bin
 sudo chmod 755 *
 sudo cp * /usr/bin
-
+```
 Go back to the root directory of the project
 
 ```bash
 cd ffmpeg-so
 sudo chmod 755 *
 sudo cp * /usr/lib
-
+```
 ## Getting start
 
 Make sure your environment has the necessary dependencies installed. Ensure that 'numpy' is installed:
@@ -24,7 +24,7 @@ Make sure your environment has the necessary dependencies installed. Ensure that
 ```bash
 cd build
 sudo python sample.py
-
+```
 'sample.py' will obtain the RGB information of the camera in real time and store it in the numpy array.
 
 ## Other
