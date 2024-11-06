@@ -5,9 +5,6 @@ Follow these steps to configure the environment and run the script.
 ## Setup FFmpeg
 
 Before running the script, configure FFmpeg as follows:
-
-
-
 ```bash
 cd ffmpeg-bin
 sudo chmod 755 *
